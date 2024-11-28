@@ -1,0 +1,8 @@
+/* ******************* */
+/*    Media Queries    */
+/* ******************* */
+
+/* Medium to Large Devices */
+@media (min-width: 1025px) {
+  main { width: 1000px; }
+}

@@ -1,0 +1,20 @@
+/* ******************** */
+/*    CSS Properties    */
+/* ******************** */
+
+:root {
+  /* Backgrounds */
+  --background-color: white;
+
+  /* Headings */
+  --h1-color: black;
+  --h2-color: black;
+  --h3-color: black;
+
+  /* Texts */
+  --p-color: black;
+
+  /* Links & Buttons */
+  --link-color: blue;
+  --link-color-hover: blue;
+}

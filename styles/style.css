@@ -1,0 +1,66 @@
+/* **************** */
+/*    Typography    */
+/* **************** */
+
+/* Headings */
+h1 { font-size: initial; color: var(--h1-color); }
+h2 { font-size: initial; color: var(--h2-color); }
+h3 { font-size: initial; color: var(--h3-color); }
+
+/* Text */
+p { font-size: initial; color: var(--p-color); }
+
+/* Links & Buttons */
+a { text-decoration: none; color: var(--link-color); }
+a:hover { text-decoration: underline; color: var(--link-color-hover); }
+
+/* ********************* */
+/*    General Styling    */
+/* ********************* */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background-color); 
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* ************ */
+/*    Header    */
+/* ************ */
+
+header {
+  width: 100%;
+}
+
+/* ********** */
+/*    Main    */
+/* ********** */
+
+main {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Drinks Section */
+main section#section_drinks {
+  width: 100%;
+}
+
+/* Snacks Section */
+main section#section_snacks {
+  width: 100%;
+}
+
+/* ************ */
+/*    Footer    */
+/* ************ */
+
+footer {
+  width: 100%;
+}
