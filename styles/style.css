@@ -81,25 +81,33 @@ main section#section_snacks {
   align-items: center;
   justify-content: center;
   position: fixed;
-  bottom: 55px;
-  right: 20px;
+  bottom: 60px;
+  right: 30px;
   padding: 10px;
   border-radius: 50%;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: black;
+}
+
+.cart-icon img {
+  width: 30px; 
+  height: 30px; 
 }
 
 .cart-count {
  position: absolute;
- top: -5px;
- right: -5px;
- width: 20px;
- height: 20px;
+ bottom: -5px;
+ right: -12px;
+ width: 25px;
+ height: 25px;
  display: flex;
  align-items: center;
  justify-content: center;
  border-radius: 50%;
  background-color: red;
  color: white;
+ font-size: 13px;
+  font-weight: bold;
 }
 
 /* ************ */
