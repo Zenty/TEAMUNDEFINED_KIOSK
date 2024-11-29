@@ -72,6 +72,22 @@ main section#section_snacks {
   width: 100%;
 }
 
+/* ********** */
+/*    Cart    */
+/* ********** */
+
+.cart-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 55px;
+  right: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
 /* ************ */
 /*    Footer    */
 /* ************ */
