@@ -30,13 +30,25 @@ body {
   min-height: 100vh;
 }
 
+
 /* ************ */
 /*    Header    */
 /* ************ */
 
-header {
+.site-header h1{
+  position: fixed;
+  top: 0;
   width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: 80px;
+  background-color:#101010;
+  font-size: 19px;
+  color: rgb(241, 239, 239); 
 }
+
+
 
 /* ********** */
 /*    Main    */
@@ -45,6 +57,7 @@ header {
 main {
   width: 100%;
   min-height: 100vh;
+  padding-top: 80px; /* Pushes the content below the header*/
 }
 
 /* Drinks Section */
