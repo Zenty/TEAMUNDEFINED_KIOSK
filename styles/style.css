@@ -88,6 +88,20 @@ main section#section_snacks {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
+.cart-count {
+ position: absolute;
+ top: -5px;
+ right: -5px;
+ width: 20px;
+ height: 20px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-radius: 50%;
+ background-color: red;
+ color: white;
+}
+
 /* ************ */
 /*    Footer    */
 /* ************ */
