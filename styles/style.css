@@ -57,7 +57,8 @@ body {
 
 main {
   width: 100%;
-  min-height: 100vh;
+  margin: 0 auto;
+  min-height: calc(100vh - 38px);
   padding-top: 80px; /* Pushes the content below the header*/
 }
 
