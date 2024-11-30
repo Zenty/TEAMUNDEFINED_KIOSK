@@ -81,23 +81,29 @@ main section#section_snacks {
   align-items: center;
   justify-content: center;
   position: fixed;
-  bottom: 60px;
-  right: 30px;
-  padding: 10px;
+  bottom: 48px;
+  right: 20px;
+  padding: 15px;
   border-radius: 50%;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 4px 12px 0px;
   background-color: black;
+  cursor: pointer;
+  transform: transform 0.2s ease-in-out;
+}
+
+.cart-icon:hover {
+  transform: scale(1.1);
 }
 
 .cart-icon img {
-  width: 30px; 
-  height: 30px; 
+  width: 35px; 
+  height: 35px; 
 }
 
 .cart-count {
  position: absolute;
  bottom: -5px;
- right: -12px;
+ right: -10px;
  width: 25px;
  height: 25px;
  display: flex;
@@ -106,8 +112,8 @@ main section#section_snacks {
  border-radius: 50%;
  background-color: red;
  color: white;
- font-size: 13px;
-  font-weight: bold;
+ font-size: 14px;
+ font-weight: bold;
 }
 
 /* ************ */
