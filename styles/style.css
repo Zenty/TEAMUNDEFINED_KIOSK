@@ -110,6 +110,11 @@ main section#section_snacks {
   color: white;
   font-size: 14px;
   font-weight: bold;
+  visibility: hidden; /* Hides the count if cart is empty */
+}
+
+.cart-count.visible {
+  visibility: visible;
 }
 
 .cart-popup {
