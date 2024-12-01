@@ -88,7 +88,7 @@ main section#section_snacks {
 }
 
 .cart-icon:hover {
-  transform: scale(1.1);
+  transform: scale(1.1); /* Increases the size when hover */
 }
 
 .cart-icon img {
@@ -114,25 +114,24 @@ main section#section_snacks {
 
 .cart-popup {
     position: fixed;
-    top: 80px;
+    top: 80px; /* Should be same as header height to push the content below the header */
     left: 0;
     bottom: 0;
     width: 100%;
     max-height: calc(100vh - 118px);
     background-color: rgba(0, 0, 0, 0.7);
     display: flex;
-    visibility: hidden; 
+    visibility: hidden; /* Hides the cart initially */
     justify-content: center;
     transition: opacity 0.3s ease-in-out
 }
 
 .cart-popup.visible {
-  visibility: visible;
+  visibility: visible; /* Shows the cart when visible class is added */	
 }
 
 .cart-popup-content {
   background-color: white;
-  padding: 30px;
   border-radius: 5px;
   width: 80%;
   align-items: center;
