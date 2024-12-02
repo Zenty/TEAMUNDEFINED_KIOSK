@@ -30,7 +30,6 @@ body {
   min-height: 100vh;
 }
 
-
 /* ************ */
 /*    Header    */
 /* ************ */
@@ -48,8 +47,6 @@ body {
   font-size: 19px;
   color: rgb(241, 239, 239); 
 }
-
-
 
 /* ********** */
 /*    Main    */
@@ -72,6 +69,93 @@ main section#section_snacks {
   width: 100%;
 }
 
+/* ********** */
+/*    Cart    */
+/* ********** */
+
+.cart-open-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 48px;
+  right: 20px;
+  padding: 15px;
+  border-radius: 50%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 4px 12px 0px;
+  background-color: black;
+  cursor: pointer;
+}
+
+.cart-open-button:hover {
+  transform: scale(1.1); /* Increases the size when hover */
+}
+
+.cart-open-button img {
+  width: 35px; 
+  height: 35px; 
+}
+
+.cart-count {
+  position: absolute;
+  bottom: -5px;
+  right: -10px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  visibility: hidden; /* Hides the count if cart is empty */
+}
+
+.cart-count.visible {
+  visibility: visible;
+}
+
+.cart-popup {
+  position: fixed;
+  bottom: 38px;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  max-height: calc(100vh - 118px); 
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  border-radius: 10px 10px 0 0;
+  z-index: 1; /* To make the cart slide up behind the footer */
+}
+
+.cart-popup.visible {
+  opacity: 1; 
+  transform: translateY(0);
+  z-index: 1;
+}
+    
+.close-cart-button {
+  background: none;
+  border: none; 
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  cursor: pointer;
+}
+
+.close-cart-button:hover {
+  color: gray;
+}
+
 /* ************ */
 /*    Footer    */
 /* ************ */
@@ -84,4 +168,6 @@ main section#section_snacks {
   text-align: center;
   background-color:#101010;
   color: rgb(241, 239, 239); 
+  z-index: 2; /* To keep the footer in front of the cart popup-slide */
+ position: relative;
 }
