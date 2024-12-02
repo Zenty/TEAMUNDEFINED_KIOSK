@@ -73,7 +73,7 @@ main section#section_snacks {
 /*    Cart    */
 /* ********** */
 
-.cart-icon {
+.cart-open-button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -87,11 +87,11 @@ main section#section_snacks {
   cursor: pointer;
 }
 
-.cart-icon:hover {
+.cart-open-button:hover {
   transform: scale(1.1); /* Increases the size when hover */
 }
 
-.cart-icon img {
+.cart-open-button img {
   width: 35px; 
   height: 35px; 
 }
@@ -118,47 +118,42 @@ main section#section_snacks {
 }
 
 .cart-popup {
-    position: fixed;
-    top: 80px; /* Should be same as header height to push the content below the header */
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    max-height: calc(100vh - 118px);
-    background-color: rgba(0, 0, 0, 0.7);
-    display: flex;
-    visibility: hidden; /* Hides the cart initially */
-    justify-content: center;
-    transition: opacity 0.3s ease-in-out
+  position: fixed;
+  bottom: 38px;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  max-height: calc(100vh - 118px); 
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  border-radius: 10px 10px 0 0;
+  z-index: 1; /* To make the cart slide up behind the footer */
 }
 
 .cart-popup.visible {
-  visibility: visible; /* Shows the cart when visible class is added */	
+  opacity: 1; 
+  transform: translateY(0);
+  z-index: 1;
 }
-
-.cart-popup-content {
-  background-color: white;
-  border-radius: 5px;
-  width: 80%;
-  align-items: center;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 10px 8px 0px;
-  transition: opacity 0.3s ease-in-out;
-  text-align: center;
-  position: relative;
-}
-
-.close-cart {
+    
+.close-cart-button {
   background: none;
   border: none; 
   font-size: 30px;
-  color: #272727;
+  color: white;
   position: absolute;
   top: 10px;
   right: 25px;
   cursor: pointer;
 }
 
-.close-cart:hover {
-  color: white;
+.close-cart-button:hover {
+  color: gray;
 }
 
 /* ************ */
@@ -173,4 +168,6 @@ main section#section_snacks {
   text-align: center;
   background-color:#101010;
   color: rgb(241, 239, 239); 
+  z-index: 2; /* To keep the footer in front of the cart popup-slide */
+ position: relative;
 }

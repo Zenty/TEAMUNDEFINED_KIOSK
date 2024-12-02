@@ -40,19 +40,17 @@
     <!-- Cart -->
     <section class="cart-container">
       <!-- Cart icon -->
-      <div id="cart-icon" class="cart-icon">
+      <button id="cart-open-button" class="cart-open-button">
         <img src="images/icons8-cart-48.png" alt="Kundvagnsikon">
         <span id="cart-count" class="cart-count">0</span>
-      </div>
+      </button>
       <!-- Cart popup -->
       <div id="cart-popup" class="cart-popup">
-        <div class="cart-popup-content">
-          <button id="close-cart" class="close-cart">X</button> <!-- Temporary button for popup -->
+          <button id="close-cart-button" class="close-cart-button">X</button> <!-- Temporary button for popup -->
         </div>
-      </div>
       <!-- For testing - Temporary button to update cart count -->
-      <button onclick="updateCart('add')">Lägg till produkt</button>
-      <button onclick="updateCart('remove')">Ta bort produkt</button>
+      <button id="cart-add-button">Lägg till produkt</button>
+      <button id="cart-remove-button">Ta bort produkt</button>
     </section>
   </main>
   
