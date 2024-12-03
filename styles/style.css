@@ -59,14 +59,40 @@ main {
   padding-top: 80px; /* Pushes the content below the header*/
 }
 
-/* Drinks Section */
-main section#section_drinks {
-  width: 100%;
+/* ********** */
+/*  Food and  */ 
+/*   drinks   */
+/* ********** */
+
+.accordion_button {
+  display:block;
+  width:100%;
+  padding: 18px;
+  height:70px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  background: #333333;
+  color: #ffffff;
+  text-align: left;
+  transition: background 0.5s;
 }
 
-/* Snacks Section */
-main section#section_snacks {
-  width: 100%;
+.accordion_button::after {
+  content: '\25be'; /*Down-arrow*/
+  float: right;
+  transform: scale (1.5);
+}
+
+.accordion_button--active { background: #555555; }
+.accordion_button--active::after { content: '\25b4';} /*Up-arrow*/
+
+.accordion_content {
+  overflow:hidden;
+  max-height: 0;
+  transition: max-height 0.2s;
+  padding: 0 15px; /* Padding for the content*/
+  background: #eeeeee;
 }
 
 /* ********** */
