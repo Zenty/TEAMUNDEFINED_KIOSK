@@ -88,8 +88,10 @@ main section#section_drinks h2 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s, box-shadow 0.2s;
 }
-
-
+.dryck:hover, .snacks:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
 /* Snacks Section */
 main section#section_snacks {
