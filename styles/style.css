@@ -76,6 +76,21 @@ main section#section_drinks h2 {
   margin-bottom: 20px;
 }
 
+.dryck {
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  margin: 10px;
+  padding: 15px;
+  background-color: white;
+  border: 1px solid #b2dfdb;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+
+
 /* Snacks Section */
 main section#section_snacks {
   width: 100%;
