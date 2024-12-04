@@ -85,15 +85,21 @@ main section#section_snacks {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 4px 12px 0px;
   background-color: black;
   cursor: pointer;
+  border: none;
 }
 
 .cart-open-button:hover {
   transform: scale(1.1); /* Increases the size when hover */
 }
 
-.cart-open-button img {
+.cart-open-button svg {
   width: 35px; 
   height: 35px; 
+  fill: none;
+  stroke: white;
+  stroke-width: 1;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .cart-count {
