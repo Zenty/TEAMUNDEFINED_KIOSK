@@ -69,6 +69,13 @@ main section#section_drinks {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+main section#section_drinks h2 {
+  text-align: center;
+  font-size: 24px;
+  color: black;
+  margin-bottom: 20px;
+}
+
 /* Snacks Section */
 main section#section_snacks {
   width: 100%;
