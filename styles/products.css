@@ -26,7 +26,7 @@ picture {
 }
 
 /* Responsive grid for drinks (might refactor later for to include snacks as well) */
-.drinks-container {
+.grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
   gap: 8px;
