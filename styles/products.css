@@ -30,12 +30,24 @@ picture {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
   gap: 8px;
+  padding: 1rem 0;
 }
 
 /* Basic style for cards */
 .product-card {
+  background-color: white;
   aspect-ratio: 1 / 1.5;
   padding: 1em;
+  background-color: white;
+  border: 1px solid #b2dfdb;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Scale product images scale with card */
@@ -54,12 +66,11 @@ picture {
 /* Product name styling */
 .product-name {
   font-size: 1.25rem;
-  font-weight: lighter;
-  line-height: 1.618;
+  color: #004d40;
 }
 
 /* Product price styling */
 .product-price {
-  font-size: 1.25em;
-  font-weight: bolder;
+  font-size: 1.2rem;
+  color: #00695c;
 }

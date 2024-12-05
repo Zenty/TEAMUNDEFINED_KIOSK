@@ -109,9 +109,8 @@ main {
 
 .accordion_content {
   overflow: hidden;
-  max-height: 0;
   transition: max-height 0.2s;
-  padding: 0 15px; /* Padding for the content */
+  padding: 0 1rem; /* Padding for the content */
   background: #eeeeee;
 }
 
@@ -120,21 +119,21 @@ main {
 /*   drinks   */
 /* ********** */
 
-#section_drinks {
+/* #section_drinks {
   width: 100%;
   padding: 20px;
   margin: 20px 0;
   background-color: #e0f7fa;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+} */
 
-#section_drinks h2 {
+/* #section_drinks h2 {
   text-align: center;
   font-size: 24px;
   color: black;
   margin-bottom: 20px;
-}
+} */
 
 .dryck {
   display: inline-block;
@@ -147,11 +146,6 @@ main {
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.dryck:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .dryck img {
@@ -173,21 +167,21 @@ main {
   margin: 5px 0;
 }
 
-#section_snacks {
+/* #section_snacks {
   width: 100%;
   padding: 20px;
   margin: 20px 0;
   background-color: #fff3e0;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+} */
 
-#section_snacks h2 {
+/* #section_snacks h2 {
   text-align: center;
   font-size: 24px;
   color: black;
   margin-bottom: 20px;
-}
+} */
 
 .snacks {
   display: inline-block;
