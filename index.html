@@ -1,41 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Meta Data-->
+    <meta charset="utf-8" />
+    <meta name="description" content="TUC Kiosk" />
+    <meta name="keywords" content="TUC, Yrkeshögskola, Kiosk" />
+    <meta name="author" content="Team Undefined" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <!-- Meta Data-->
-  <meta charset="utf-8">
-  <meta name="description" content="TUC Kiosk">
-  <meta name="keywords" content="TUC, Yrkeshögskola, Kiosk">
-  <meta name="author" content="Team Undefined">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styles -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Open Sans Font -->
+    <link rel="stylesheet" href="styles/properties.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/media-queries.css" />
 
-  <!-- Styles -->
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-    rel="stylesheet"> <!-- Open Sans Font -->
-  <link rel="stylesheet" href="styles/properties.css">
-  <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="styles/media-queries.css">
+    <!-- Tab Content -->
+    <title>TUC Kiosk</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="site-header">
+      <h1>Kiosk TUC Linköping</h1>
+    </header>
 
-  <!-- Tab Content -->
-  <title>TUC Kiosk</title>
-</head>
-<body>
-  <!-- HEADER -->
-  <header class="site-header">
-    <h1>Kiosk TUC Linköping</h1>
-  </header>
+    <!-- MAIN -->
+    <main>
 
-  <!-- MAIN -->
-  <main>
+      <!-- Food Section -->
+      <section class="accordion">
+        <button type="button" class="accordion_button">Food</button>
+        <div class="accordion_content">
+          <p>
+            Curabitur a sollicitudin velit. Suspendisse faucibus, velit in
+            consectetur varius, massa lorem malesuada erat, et laoreet risus ex
+            at elit. Nulla vestibulum nibh justo, vel tristique urna aliquam
+            quis. Quisque a vehicula ante, eu viverra ligula. Nulla consequat,
+            enim vitae consequat lobortis, quam odio commodo urna, ac lacinia
+            purus diam eget quam. Cras leo augue, laoreet elementum turpis in,
+            sodales iaculis ante. Fusce vulputate vestibulum libero. Praesent et
+            mi eu eros tempus aliquam. Curabitur venenatis non orci et
+            malesuada. Praesent vel convallis libero, eu finibus sem. Etiam et
+            varius nisl, ac vehicula libero. .
+          </p>
+        </div>
+      </section>
 
-    <!-- Drinks Section -->
-    <section id="section_drinks">
-      
-    </section>
-    <!-- Snacks Section -->
-    <section id="section_snacks">
+      <!-- Drinks Section -->
+      <section class="accordion">
+        <button type="button" class="accordion_button">Drinks</button>
+        <div class="accordion_content">
+          <p>
+            Curabitur a sollicitudin velit. Suspendisse faucibus, velit in
+            consectetur varius, massa lorem malesuada erat, et laoreet risus ex
+            at elit. Nulla vestibulum nibh justo, vel tristique urna aliquam
+            quis. Quisque a vehicula ante, eu viverra ligula. Nulla consequat,
+            enim vitae consequat lobortis, quam odio commodo urna, ac lacinia
+            purus diam eget quam. Cras leo augue, laoreet elementum turpis in,
+            sodales iaculis ante. Fusce vulputate vestibulum libero. Praesent et
+            mi eu eros tempus aliquam. Curabitur venenatis non orci et
+            malesuada. Praesent vel convallis libero, eu finibus sem. Etiam et
+            varius nisl, ac vehicula libero. .
+          </p>
+        </div>
+      </section>
 
-    </section>
+      <!-- Snacks Section -->
+      <section id="section_snacks"></section>
 
     <!-- Cart -->
     <section class="cart-container">
@@ -53,19 +87,19 @@
       <div id="cart-popup" class="cart-popup">
           <button id="close-cart-button" class="close-cart-button">X</button> <!-- Temporary button for popup -->
         </div>
-      <!-- For testing - Temporary button to update cart count -->
-      <button id="cart-add-button">Lägg till produkt</button>
-      <button id="cart-remove-button">Ta bort produkt</button>
-    </section>
-  </main>
-  
-  <!-- FOOTER -->
-  <footer class="site-footer">
-    <p>Copyright © Team Undefined. All rights reserved.</p>
-  </footer>
+        <!-- For testing - Temporary button to update cart count -->
+        <button id="cart-add-button">Lägg till produkt</button>
+        <button id="cart-remove-button">Ta bort produkt</button>
+      </section>
+    </main>
 
-  <!-- Scripts -->
-  <script src="scripts/main.js"></script>
-  <script src="scripts/checkout.js" defer></script>
-</body>
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <p>Copyright © Team Undefined. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts/main.js"></script>
+    <script src="scripts/checkout.js" defer></script>
+  </body>
 </html>
