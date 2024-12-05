@@ -3,16 +3,34 @@
 /* **************** */
 
 /* Headings */
-h1 { font-size: initial; color: var(--h1-color); }
-h2 { font-size: initial; color: var(--h2-color); }
-h3 { font-size: initial; color: var(--h3-color); }
+h1 {
+  font-size: initial;
+  color: var(--h1-color);
+}
+h2 {
+  font-size: initial;
+  color: var(--h2-color);
+}
+h3 {
+  font-size: initial;
+  color: var(--h3-color);
+}
 
 /* Text */
-p { font-size: initial; color: var(--p-color); }
+p {
+  font-size: initial;
+  color: var(--p-color);
+}
 
 /* Links & Buttons */
-a { text-decoration: none; color: var(--link-color); }
-a:hover { text-decoration: underline; color: var(--link-color-hover); }
+a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+a:hover {
+  text-decoration: underline;
+  color: var(--link-color-hover);
+}
 
 /* ********************* */
 /*    General Styling    */
@@ -25,7 +43,7 @@ a:hover { text-decoration: underline; color: var(--link-color-hover); }
 }
 
 body {
-  background-color: var(--background-color); 
+  background-color: var(--background-color);
   width: 100%;
   min-height: 100vh;
 }
@@ -34,7 +52,7 @@ body {
 /*    Header    */
 /* ************ */
 
-.site-header h1{
+.site-header h1 {
   position: fixed;
   top: 0;
   width: 100%;
@@ -43,9 +61,9 @@ body {
   justify-content: center;
   padding: 10px;
   height: 80px;
-  background-color:#101010;
+  background-color: #101010;
   font-size: 19px;
-  color: rgb(241, 239, 239); 
+  color: rgb(241, 239, 239);
 }
 
 /* ********** */
@@ -60,15 +78,15 @@ main {
 }
 
 /* ********** */
-/*  Food and  */ 
+/*  Food and  */
 /*   drinks   */
 /* ********** */
 
 .accordion_button {
-  display:block;
-  width:100%;
+  display: block;
+  width: 100%;
   padding: 18px;
-  height:70px;
+  height: 70px;
   font-size: 20px;
   cursor: pointer;
   border: none;
@@ -79,16 +97,20 @@ main {
 }
 
 .accordion_button::after {
-  content: '\25be'; /*Down-arrow*/
+  content: "\25be"; /*Down-arrow*/
   float: right;
   transform: scale (1.5);
 }
 
-.accordion_button--active { background: #555555; }
-.accordion_button--active::after { content: '\25b4';} /*Up-arrow*/
+.accordion_button--active {
+  background: #555555;
+}
+.accordion_button--active::after {
+  content: "\25b4";
+} /*Up-arrow*/
 
 .accordion_content {
-  overflow:hidden;
+  overflow: hidden;
   max-height: 0;
   transition: max-height 0.2s;
   padding: 0 15px; /* Padding for the content*/
@@ -119,8 +141,8 @@ main {
 }
 
 .cart-open-button svg {
-  width: 35px; 
-  height: 35px; 
+  width: 35px;
+  height: 35px;
   fill: none;
   stroke: white;
   stroke-width: 1;
@@ -154,7 +176,7 @@ main {
   top: 100px;
   left: 0;
   width: 100%;
-  min-height: 100vh; 
+  min-height: 100vh;
   background-color: black;
   display: flex;
   justify-content: center;
@@ -167,14 +189,14 @@ main {
 }
 
 .cart-popup.visible {
-  opacity: 1; 
+  opacity: 1;
   transform: translateY(0);
   z-index: 3;
 }
-    
+
 .close-cart-button {
   background: none;
-  border: none; 
+  border: none;
   font-size: 30px;
   color: white;
   position: absolute;
@@ -191,14 +213,14 @@ main {
 /*    Footer    */
 /* ************ */
 
-.site-footer p{
+.site-footer p {
   width: 100%;
   height: 38px;
   font-size: 16px;
   padding: 10px;
   text-align: center;
-  background-color:#101010;
-  color: rgb(241, 239, 239); 
+  background-color: #101010;
+  color: rgb(241, 239, 239);
   z-index: 2; /* To keep the footer in front of the cart popup-slide */
- position: relative;
+  position: relative;
 }
