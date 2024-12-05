@@ -1,0 +1,25 @@
+ # Whenever code gets pushed to main the GitHub page will automatically be updated using GitHub Action
+
+ name: Deploy to GitHub Pages
+
+ on:
+   push:
+     branches:
+       - main  # Trigger when changes are pushed to the main branch
+ 
+ jobs:
+   deploy:
+     runs-on: ubuntu-latest # Uses the latest version of an Ubuntu runner
+ 
+     steps:
+       - name: Checkout code
+         uses: actions/checkout@v2
+ 
+       - name: Deploy to GitHub Pages
+         uses: peaceiris/actions-gh-pages@v3
+         with:
+           publish_dir: ./  # Deploy from the root of the repository
+           publish_branch: gh-pages  # Deploy to the gh-pages branch
+           github_token: ${{ secrets.GITHUB_TOKEN }}  # Use GitHub's built-in token for authentication
+           user_name: "GitHub Actions"  # Name for the commit
+           user_email: "actions@github.com"  # Email for the commit
