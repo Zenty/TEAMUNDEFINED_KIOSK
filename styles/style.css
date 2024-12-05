@@ -151,11 +151,10 @@ main {
 
 .cart-popup {
   position: fixed;
-  bottom: 38px;
   top: 100px;
   left: 0;
   width: 100%;
-  max-height: calc(100vh - 118px); 
+  min-height: 100vh; 
   background-color: black;
   display: flex;
   justify-content: center;
@@ -170,7 +169,7 @@ main {
 .cart-popup.visible {
   opacity: 1; 
   transform: translateY(0);
-  z-index: 1;
+  z-index: 3;
 }
     
 .close-cart-button {
