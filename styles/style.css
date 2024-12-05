@@ -27,6 +27,7 @@ a {
   text-decoration: none;
   color: var(--link-color);
 }
+
 a:hover {
   text-decoration: underline;
   color: var(--link-color-hover);
@@ -227,9 +228,10 @@ main {
   padding: 15px;
   border-radius: 50%;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 4px 12px 0px;
-  background-color: black;
+  background: rgba(0, 0, 0, 0.747);
   cursor: pointer;
   border: none;
+  backdrop-filter: blur(10px); 
 }
 
 .cart-open-button:hover {
@@ -241,9 +243,10 @@ main {
   height: 35px;
   fill: none;
   stroke: white;
-  stroke-width: 1;
+  stroke-width: 1.25;
   stroke-linecap: round;
   stroke-linejoin: round;
+  padding-right: 5px;
 }
 
 .cart-count {
@@ -256,7 +259,7 @@ main {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background-color: red;
+  background: linear-gradient(45deg, #E2231A, #E21A90);
   color: white;
   font-size: 14px;
   font-weight: bold;
@@ -273,7 +276,8 @@ main {
   left: 0;
   width: 100%;
   min-height: 100vh;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
   display: flex;
   justify-content: center;
   align-items: center;
