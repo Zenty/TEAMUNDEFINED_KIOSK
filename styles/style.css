@@ -77,10 +77,7 @@ main {
   padding-top: 80px; /* Pushes the content below the header*/
 }
 
-/* ********** */
-/*  Food and  */
-/*   drinks   */
-/* ********** */
+/* Section accordion */
 
 .accordion_button {
   display: block;
@@ -105,16 +102,115 @@ main {
 .accordion_button--active {
   background: #555555;
 }
+
 .accordion_button--active::after {
-  content: "\25b4";
-} /*Up-arrow*/
+  content: "\25b4"; /* Up-arrow */
+}
 
 .accordion_content {
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.2s;
-  padding: 0 15px; /* Padding for the content*/
+  padding: 0 15px; /* Padding for the content */
   background: #eeeeee;
+}
+
+/* ********** */
+/*  Food and  */
+/*   drinks   */
+/* ********** */
+
+#section_drinks {
+  width: 100%;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #e0f7fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#section_drinks h2 {
+  text-align: center;
+  font-size: 24px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.dryck {
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  margin: 10px;
+  padding: 15px;
+  background-color: white;
+  border: 1px solid #b2dfdb;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.dryck:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dryck img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.dryck h3 {
+  font-size: 18px;
+  color: #004d40;
+  margin: 5px 0;
+}
+
+.dryck p {
+  font-size: 16px;
+  color: #00695c;
+  margin: 5px 0;
+}
+
+#section_snacks {
+  width: 100%;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #fff3e0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#section_snacks h2 {
+  text-align: center;
+  font-size: 24px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.snacks {
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  margin: 10px;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #b2dfdb;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.snacks:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.snacks img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 /* ********** */
