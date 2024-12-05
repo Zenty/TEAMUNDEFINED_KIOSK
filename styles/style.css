@@ -145,9 +145,10 @@ main {
   height: 35px;
   fill: none;
   stroke: white;
-  stroke-width: 1;
+  stroke-width: 1.25;
   stroke-linecap: round;
   stroke-linejoin: round;
+  padding-right: 6px;
 }
 
 .cart-count {
