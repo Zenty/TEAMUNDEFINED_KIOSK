@@ -100,6 +100,13 @@ main section#section_drinks h2 {
   margin-bottom: 10px;
 }
 
+.dryck h3 {
+  font-size: 18px;
+  color: #004d40;
+  margin: 5px 0;
+}
+
+
 
 /* Snacks Section */
 main section#section_snacks {
