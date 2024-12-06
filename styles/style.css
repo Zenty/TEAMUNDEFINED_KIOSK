@@ -4,33 +4,61 @@
 
 /* Headings */
 h1 {
-  font-size: initial;
-  color: var(--h1-color);
+  color:aliceblue;  
+    font-size: 20px;
+    font-family:sans-serif;
+    font-style:italic;
+    font-variant: normal;
+    width: 100%;
+    padding: 15px;
+    height: 90px;
 }
 h2 {
-  font-size: initial;
-  color: var(--h2-color);
+  color:aliceblue;  
+  font-size: 20px;
+  font-family: sans-serif;
+  font-style:italic;
+  font-variant: normal;
+  width: 100%;
+  padding: 15px;
+  height: 90px;
 }
 h3 {
-  font-size: initial;
-  color: var(--h3-color);
+  color:aliceblue;  
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style:italic;
+    font-variant: normal;
+    width: 100%;
+    padding: 15px;
+    height: 90px;
 }
 
 /* Text */
 p {
-  font-size: initial;
-  color: var(--p-color);
+  color:aliceblue;  
+    font-size: 20px;
+    font-family:sans-serif;
+    font-style:italic;
+    font-variant: normal;
+    width: 100%;
+    padding: 15px;
+    height: 90px;
 }
 
 /* Links & Buttons */
 a {
-  text-decoration: none;
-  color: var(--link-color);
+  text-decoration:solid; 
+    color:aliceblue;
+    font-size: 20px;
+    font-family:sans-serif;
 }
 
 a:hover {
-  text-decoration: underline;
-  color: var(--link-color-hover);
+  text-decoration:solid; 
+  color:aliceblue;
+  font-size: 20px;
+  font-family: sans-serif;
 }
 
 /* ********************* */
