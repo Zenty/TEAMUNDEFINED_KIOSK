@@ -101,7 +101,7 @@ body {
 main {
   width: 100%;
   margin: 0 auto;
-  min-height: calc(100vh - 42px);
+  min-height: calc(100vh - 38px);
   padding-top: 80px; /* Pushes the content below the header*/
 }
 
@@ -153,9 +153,6 @@ main {
   background-image: linear-gradient(270deg, #8EC5FC 0%, #E0C3FC 100%);  
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 #section_drinks h2 {
@@ -163,13 +160,12 @@ main {
   font-size: 24px;
   color: black;
   margin-bottom: 20px;
-  width: 100%;
 }
 
 .dryck {
   display: inline-block;
   text-align: center;
-  max-width: 200px;
+  width: 200px;
   margin: 10px;
   padding: 15px;
   background-color: white;
@@ -177,7 +173,6 @@ main {
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s, box-shadow 0.2s;
-  flex: 1 1 100px;
 }
 
 .dryck:hover {
@@ -212,9 +207,6 @@ main {
   background-image: linear-gradient(270deg, #8EC5FC 0%, #E0C3FC 100%);  
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 #section_snacks h2 {
@@ -222,20 +214,18 @@ main {
   font-size: 24px;
   color: black;
   margin-bottom: 20px;
-  width: 100%;
 }
 
 .snacks {
   display: inline-block;
   text-align: center;
-  max-width: 200px;
+  width: 200px;
   margin: 10px;
   padding: 15px;
   background-color: #ffffff;
   border: 1px solid #b2dfdb;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s, box-shadow 0.2s;
-  flex: 1 1 100px;
 }
 
 .snacks:hover {
@@ -351,15 +341,12 @@ main {
 
 .site-footer p {
   width: 100%;
-  height: 42px;
-  font-size: 15px;
+  height: 38px;
+  font-size: 16px;
   padding: 10px;
   text-align: center;
   background-color: #101010;
   color: rgb(241, 239, 239);
   z-index: 2; /* To keep the footer in front of the cart popup-slide */
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
