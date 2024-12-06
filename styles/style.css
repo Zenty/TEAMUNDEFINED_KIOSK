@@ -106,8 +106,10 @@ main {
   padding-top: 80px; /* Pushes the content below the header*/
 }
 
-/* Section accordion */
-
+/* ********** */
+/*  Accordion */
+/*   section  */
+/* ********** */
 .accordion_button {
   display: block;
   width: 100%;
@@ -116,7 +118,7 @@ main {
   font-size: 20px;
   cursor: pointer;
   border: none;
-  background: #333333;
+  background-image: linear-gradient(289deg, #e2231a 53%, #e21a90);
   color: #ffffff;
   text-align: left;
   transition: background 0.5s;
@@ -126,10 +128,6 @@ main {
   content: "\25be"; /*Down-arrow*/
   float: right;
   transform: scale (1.5);
-}
-
-.accordion_button--active {
-  background: #555555;
 }
 
 .accordion_button--active::after {
