@@ -59,34 +59,14 @@ main {
   padding-top: 80px; /* Pushes the content below the header*/
 }
 
+
+/*temporary product*/
 .product {
   width: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-}
-.img-container {
-  width: 120px;
-  display: flex;
-}
-
-img {
-  width: 100%;
-  height: 100%;
-}
-
-.cart-product {
-  display: flex;
-  align-items: center;
-}
-
-.cart-product p, .cart-product h2 {
-  color: rgb(255, 255, 255);
-}
-
-.cart-img {
-  height: 100px;
 }
 
 
@@ -155,8 +135,9 @@ main section#section_snacks {
   left: 0;
   width: 100%;
   max-height: calc(100vh - 118px); 
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(234, 234, 234);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   transform: translateY(100%);
@@ -164,6 +145,10 @@ main section#section_snacks {
   transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
   border-radius: 10px 10px 0 0;
   z-index: 1; /* To make the cart slide up behind the footer */
+}
+
+.cart-img {
+  height: 100px;
 }
 
 .cart-popup.visible {
@@ -202,3 +187,64 @@ main section#section_snacks {
   z-index: 2; /* To keep the footer in front of the cart popup-slide */
  position: relative;
 }
+
+/* ************ */
+/*    Cart design    */
+/* ************ */
+
+.img-container {
+  width: 120px;
+  display: flex;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.cart-product {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 370px;
+  justify-content: space-around;
+  padding-right: 20px;
+  border: 1px solid linear-gradient(rgba(255,255,255,1), rgba(0,0,0,1));
+  box-shadow: 0px 0px 22px -8px rgba(0,0,0,0.75);
+}
+
+.quantity-buttons {
+  display: flex;
+  padding: 10px;
+  border: solid 1px;
+  border-radius: 10px;
+  width: 80px;
+  justify-content: space-between;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.swish-button {
+  display: flex;
+  width: 370px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0px 0px 22px -8px rgba(0,0,0,0.75);
+  padding-block: 10px;
+
+}
+
+.swish-logo {
+  width: 60px;
+  flex-grow: calc(0.5);
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+

@@ -47,3 +47,24 @@ cartRemoveButton.addEventListener('click', function() {
     cartCount--; 
     updateCartDisplay();
 });
+
+// Event listeners för plus- och minus-knappar
+document.querySelectorAll('.bi-plus-square').forEach((plusButton) => {
+    plusButton.addEventListener('click', function () {
+        const quantityElement = this.previousElementSibling; // Hitta elementet som visar kvantiteten
+        let currentQuantity = parseInt(quantityElement.textContent);
+        currentQuantity++; // Öka kvantiteten med 1
+        quantityElement.textContent = currentQuantity; // Uppdatera elementets text
+    });
+});
+
+document.querySelectorAll('.bi-dash-square').forEach((minusButton) => {
+    minusButton.addEventListener('click', function () {
+        const quantityElement = this.nextElementSibling; // Hitta elementet som visar kvantiteten
+        let currentQuantity = parseInt(quantityElement.textContent);
+        if (currentQuantity > 1) { // Kontrollera att kvantiteten inte går under 1
+            currentQuantity--; // Minska kvantiteten med 1
+            quantityElement.textContent = currentQuantity; // Uppdatera elementets text
+        }
+    });
+});
