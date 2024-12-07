@@ -99,7 +99,7 @@ body {
 main {
   width: 100%;
   margin: 0 auto;
-  min-height: calc(100vh - 38px);
+  min-height: calc(100vh - 42px);
   padding-top: 80px; /* Pushes the content below the header*/
 }
 
@@ -149,6 +149,9 @@ main {
   margin: 20px 0;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   background-color: #f5f0ff;
 }
 
@@ -162,7 +165,7 @@ main {
 .dryck {
   display: inline-block;
   text-align: center;
-  width: 200px;
+  max-width: 200px;
   margin: 10px;
   padding: 15px;
   background-color: white;
@@ -170,6 +173,7 @@ main {
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s, box-shadow 0.2s;
+  flex: 1 1 100px;
 }
 
 .dryck:hover {
@@ -203,6 +207,9 @@ main {
   background-color: #f5f0ff;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #section_snacks h2 {
@@ -215,13 +222,14 @@ main {
 .snacks {
   display: inline-block;
   text-align: center;
-  width: 200px;
+  max-width: 200px;
   margin: 10px;
   padding: 15px;
   background-color: #ffffff;
   border: 1px solid #b2dfdb;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s, box-shadow 0.2s;
+  flex: 1 1 100px;
 }
 
 .snacks:hover {
@@ -337,12 +345,15 @@ main {
 
 .site-footer p {
   width: 100%;
-  height: 38px;
-  font-size: 16px;
+  height: 42px;
+  font-size: 15px;
   padding: 10px;
   text-align: center;
   background-color: #101010;
   color: rgb(241, 239, 239);
-  z-index: 2; /* To keep the footer in front of the cart popup-slide */
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 }
