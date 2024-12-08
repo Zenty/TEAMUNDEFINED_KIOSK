@@ -48,23 +48,23 @@ cartRemoveButton.addEventListener('click', function() {
     updateCartDisplay();
 });
 
-// Event listeners för plus- och minus-knappar
+// Event listeners for plus- och minus-knappar
 document.querySelectorAll('.bi-plus-square').forEach((plusButton) => {
     plusButton.addEventListener('click', function () {
-        const quantityElement = this.previousElementSibling; // Hitta elementet som visar kvantiteten
+        const quantityElement = this.previousElementSibling;
         let currentQuantity = parseInt(quantityElement.textContent);
-        currentQuantity++; // Öka kvantiteten med 1
-        quantityElement.textContent = currentQuantity; // Uppdatera elementets text
+        currentQuantity++;
+        quantityElement.textContent = currentQuantity;
     });
 });
 
 document.querySelectorAll('.bi-dash-square').forEach((minusButton) => {
     minusButton.addEventListener('click', function () {
-        const quantityElement = this.nextElementSibling; // Hitta elementet som visar kvantiteten
+        const quantityElement = this.nextElementSibling;
         let currentQuantity = parseInt(quantityElement.textContent);
-        if (currentQuantity > 1) { // Kontrollera att kvantiteten inte går under 1
-            currentQuantity--; // Minska kvantiteten med 1
-            quantityElement.textContent = currentQuantity; // Uppdatera elementets text
+        if (currentQuantity > 1) {
+            currentQuantity--;
+            quantityElement.textContent = currentQuantity;
         }
     });
 });
