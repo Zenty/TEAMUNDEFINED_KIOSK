@@ -5,73 +5,73 @@
         "id": "1",
         "name": "Delicatoboll",
         "price": "8 kr",
-        "imageUrl": "../images/delicatoboll.png"
+        "imageUrl": "../images/snacks/delicatoboll.png"
       },
       {
         "id": "2",
         "name": "Haribo Peach",
         "price": "13 kr",
-        "imageUrl": "../images/haribo-peach.png"
+        "imageUrl": "../images/snacks/haribo-peach.png"
       },
       {
         "id": "3",
         "name": "Kexchoklad",
         "price": "10 kr",
-        "imageUrl": "../images/kexchoklad.png"
+        "imageUrl": "../images/snacks/kexchoklad.png"
       },
       {
         "id": "4",
         "name": "Barbell Protein Bar",
         "price": "15 kr",
-        "imageUrl": "../images/barbell-protein.png"
+        "imageUrl": "../images/snacks/barbell-protein.png"
       },
       {
         "id": "5",
         "name": "Snickers",
         "price": "15 kr",
-        "imageUrl": "https://placebeard.it/300x300"
+        "imageUrl": "../images/snacks/snickers.png"
       },
       {
         "id": "6",
         "name": "Twix",
         "price": "16 kr",
-        "imageUrl": "https://placebeard.it/300x300"
+        "imageUrl": "../images/snacks/twix.webp"
       },
       {
         "id": "7",
         "name": "Ballerina Kakor",
         "price": "22 kr",
-        "imageUrl": "https://placebeard.it/300x300"
+        "imageUrl": "../images/snacks/ballerina.webp"
       },
       {
         "id": "8",
         "name": "Digestive Kex",
         "price": "25 kr",
-        "imageUrl": "https://placebeard.it/300x300"
+        "imageUrl": "../images/snacks/digestive.png"
       },
       {
         "id": "9",
         "name": "Chips (Salt)",
         "price": "28 kr",
-        "imageUrl": "https://placebeard.it/300x300"
+        "imageUrl": "../images/snacks/saltachips.png"
       },
       {
         "id": "10",
         "name": "Ostbågar",
         "price": "32 kr",
-        "imageUrl": "https://placebeard.it/300x300"
+        "imageUrl": "../images/snacks/ostbagar.webp"
       },
       {
         "id": "11",
         "name": "Cashewnötter",
         "price": "35 kr",
-        "imageUrl": "https://placebeard.it/300x300"
+        "imageUrl": "../images/snacks/cashewnotter.webp"
       },
       {
         "id": "12",
         "name": "Saltlakrits",
         "price": "20 kr",
-        "imageUrl": "https://placebeard.it/300x300"
+        "imageUrl": "../images/snacks/saltlakrits.webp"
       }
     ],
 
@@ -80,73 +80,73 @@
         "id": "1",
         "name": "Coca-Cola",
         "price": "12 kr",
-        "imageUrl": "../images/coca-cola.png"
+        "imageUrl": "../images/drinks/coca-cola.png"
       },
       {
         "id": "2",
         "name": "Red Bull",
         "price": "15 kr",
-        "imageUrl": "../images/red-bull.png"
+        "imageUrl": "../images/drinks/red-bull.png"
       },
       {
         "id": "3",
         "name": "Nordpole",
         "price": "15 kr",
-        "imageUrl": "../images/nordpole-dricka.png"
+        "imageUrl": "../images/drinks/nordpole-dricka.png"
       },
       {
         "id": "4",
         "name": "Julmust",
         "price": "11 kr",
-        "imageUrl": "../images/julmust.png"
+        "imageUrl": "../images/drinks/julmust.png"
       },
       {
         "id": "5",
-        "name": "Red Bull",
+        "name": "Nocco",
         "price": "25 kr",
-        "imageUrl": "https://placebeard.it/300x300"
+        "imageUrl": "../images/drinks/nocco.webp"
       },
       {
         "id": "6",
         "name": "Trocadero",
         "price": "19 kr",
-        "imageUrl": "https://placebeard.it/300x300"
+        "imageUrl": "../images/drinks/trocadero.jpg"
       },
       {
         "id": "7",
         "name": "Loka Naturell",
         "price": "15 kr",
-        "imageUrl": "https://placebeard.it/300x300"
+        "imageUrl": "../images/drinks/loka.jpg"
       },
       {
         "id": "8",
         "name": "Ramlösa Citrus",
         "price": "17 kr",
-        "imageUrl": "https://placebeard.it/300x300"
+        "imageUrl": "../images/drinks/ramlosa.jpg"
       },
       {
         "id": "9",
         "name": "Vitamin Well Focus",
         "price": "20 kr",
-        "imageUrl": "https://placebeard.it/300x300"
+        "imageUrl": "../images/drinks/vitamin-well.webp"
       },
       {
         "id": "10",
         "name": "Nocco Caribbean",
         "price": "22 kr",
-        "imageUrl": "https://placebeard.it/300x300"
+        "imageUrl": "../images/drinks/nocco-caribbean.jpg"
       },
       {
         "id": "11",
         "name": "Monster Energy",
         "price": "25 kr",
-        "imageUrl": "https://placebeard.it/300x300"
+        "imageUrl": "../images/drinks/monsterenergy.png"
       },
       {
         "id": "12",
         "name": "Zingo",
         "price": "17 kr",
-        "imageUrl": "https://placebeard.it/300x300"
+        "imageUrl": "../images/drinks/zingo.jpg"
       }
     ]
   }
