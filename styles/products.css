@@ -1,0 +1,65 @@
+/* Stylesheet for testing out js */
+
+/* Make images responsive */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Container for products */
+.product-container {
+  max-width: 100rem;
+  margin-inline: auto;
+  padding-inline: 0.5rem;
+}
+
+/* Make card element stack on top of each other */
+.stacked {
+  display: grid;
+}
+
+/* Make card elements occupy same cell */
+.stacked > * {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+/* Responsive grid for drinks (might refactor later for to include snacks as well) */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  gap: 8px;
+}
+
+/* Basic style for cards */
+.product-card {
+  aspect-ratio: 1 / 1.5;
+  padding: 1em;
+}
+
+/* Scale product images scale with card */
+.product-image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+/* Make product info to stay att the bottom */
+.product-info {
+  align-self: end;
+  text-align: center;
+}
+
+/* Product name styling */
+.product-name {
+  font-size: 1.25rem;
+  font-weight: lighter;
+  line-height: 1.618;
+}
+
+/* Product price styling */
+.product-price {
+  font-size: 1.25em;
+  font-weight: bolder;
+}
