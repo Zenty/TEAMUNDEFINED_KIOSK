@@ -104,49 +104,49 @@
         "id": "5",
         "name": "Red Bull",
         "price": "25 kr",
-        "imageUrl": "https://prd.place/300?id=5"
+        "imageUrl": "https://placebeard.it/300x300"
       },
       {
         "id": "6",
         "name": "Trocadero",
         "price": "19 kr",
-        "imageUrl": "https://prd.place/300?id=6"
+        "imageUrl": "https://placebeard.it/300x300"
       },
       {
         "id": "7",
         "name": "Loka Naturell",
         "price": "15 kr",
-        "imageUrl": "https://prd.place/300?id=7"
+        "imageUrl": "https://placebeard.it/300x300"
       },
       {
         "id": "8",
         "name": "Ramlösa Citrus",
         "price": "17 kr",
-        "imageUrl": "https://prd.place/300?id=8"
+        "imageUrl": "https://placebeard.it/300x300"
       },
       {
         "id": "9",
         "name": "Vitamin Well Focus",
         "price": "20 kr",
-        "imageUrl": "https://prd.place/300?id=9"
+        "imageUrl": "https://placebeard.it/300x300"
       },
       {
         "id": "10",
         "name": "Nocco Caribbean",
         "price": "22 kr",
-        "imageUrl": "https://prd.place/300?id=10"
+        "imageUrl": "https://placebeard.it/300x300"
       },
       {
         "id": "11",
         "name": "Monster Energy",
         "price": "25 kr",
-        "imageUrl": "https://prd.place/300?id=11"
+        "imageUrl": "https://placebeard.it/300x300"
       },
       {
         "id": "12",
         "name": "Zingo",
         "price": "17 kr",
-        "imageUrl": "https://prd.place/300?id=12"
+        "imageUrl": "https://placebeard.it/300x300"
       }
     ]
   }
