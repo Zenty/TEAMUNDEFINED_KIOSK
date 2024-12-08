@@ -61,9 +61,10 @@
       </button>
       <!-- Cart popup -->
       <div id="cart-popup" class="cart-popup">
+        <h1>Varukorg</h1>
           <button id="close-cart-button" class="close-cart-button">X</button> <!-- Temporary button for popup -->
-          <h2>Inga varor i varukorgen</h2>
-          <i class="bi bi-bag-x-fill"></i>
+          <!-- <h2>Inga varor i varukorgen</h2>
+          <i class="bi bi-bag-x-fill"></i> -->
           <div class="cart-product">
             <div class="cart-img">
             <img src="images/cocacola_original_burk.jpg" alt=""> </div>
@@ -93,11 +94,39 @@
             <img src="images/Swish Logo Secondary Light-BG SVG.svg" alt="">
           </div>
           </div>
-        </div>
-      <!-- card info -->
-          
+          <!-- Card form -->
+          <div class="card-container">
+            <div class="card-line"></div>
+            <form class="card-form" action="/process-payment" method="POST">
 
+              <div class="form-row">
+                <div class="input-section-l">
+                  <label for="card-number">Kortnummer:</label>
+                  <input type="text" id="card-number" name="card-number" maxlength="19" placeholder="1234 5678 9101 1121" required>
+                </div>
+                <div class="input-section-r">
+                  <label for="cvv">CVV:</label>
+                  <input type="text" id="cvv" name="cvv" maxlength="3" placeholder="123" class="small-input" required>
+                </div>
+              </div>
           
+              <div class="form-row">
+                <div class="input-section-l">
+                  <label for="cardholder-name">Namn på kortet:</label>
+                  <input type="text" id="cardholder-name" name="cardholder-name" placeholder="Förnamn Efternamn" required>
+                </div>
+                <div class="input-section-r">
+                  <label for="expiry-date">Utgångsdatum:</label>
+                  <input type="text" id="expiry-date" name="expiry-date" maxlength="5" placeholder="MM/ÅÅ" class="small-input" required>
+                </div>
+              </div>
+          </div>
+<!--           <div class="card-btn">
+ -->              <button class="card-btn" type="submit">Betala med kort</button>
+<!--             </div> -->
+            </form>
+          
+        </div>
         </div>
       <!-- For testing - Temporary button to update cart count -->
       <button id="cart-add-button">Lägg till produkt</button>
