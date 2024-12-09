@@ -55,4 +55,4 @@ function displayProduct(products, productSectionID) {
     .join("");
 }
 
-createProducts();
+document.addEventListener("DOMContentLoaded", createProducts);
