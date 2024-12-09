@@ -1,4 +1,4 @@
-/* Stylesheet for testing out js */
+/* CSS for testing out js */
 
 /* Make images responsive */
 img,
@@ -31,10 +31,12 @@ picture {
   grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
   justify-items: center;
   gap: 8px;
+  padding: 1rem 0;
 }
 
 /* Basic style for cards */
 .product-card {
+  background-color: white;
   aspect-ratio: 1 / 1.5;
   padding: 1em;
   background-color: white;

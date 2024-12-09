@@ -2,65 +2,6 @@
 /*    Typography    */
 /* **************** */
 
-/* Headings */
-h1 {
-  color: aliceblue;
-  font-size: 20px;
-  font-family: sans-serif;
-  font-style: italic;
-  font-variant: normal;
-  /* width: 100%;
-    padding: 15px;
-    height: 90px; */
-}
-h2 {
-  color: aliceblue;
-  font-size: 20px;
-  font-family: sans-serif;
-  font-style: italic;
-  font-variant: normal;
-  /* width: 100%;
-  padding: 15px;
-  height: 90px; */
-}
-h3 {
-  color: aliceblue;
-  font-size: 20px;
-  font-family: sans-serif;
-  font-style: italic;
-  font-variant: normal;
-  /* width: 100%;
-    padding: 15px;
-    height: 90px; */
-}
-
-/* Text */
-p {
-  color: aliceblue;
-  font-size: 20px;
-  font-family: sans-serif;
-  font-style: italic;
-  font-variant: normal;
-  /* width: 100%;
-    padding: 15px;
-    height: 90px; */
-} 
-
-/* Links & Buttons */
-a {
-  text-decoration: solid;
-  color: aliceblue;
-  font-size: 20px;
-  font-family: sans-serif;
-}
-
-a:hover {
-  text-decoration: solid;
-  color: aliceblue;
-  font-size: 20px;
-  font-family: sans-serif;
-}
-
 /* ********************* */
 /*    General Styling    */
 /* ********************* */
@@ -98,6 +39,7 @@ picture {
   justify-content: center;
   padding: 10px;
   height: 80px;
+  color: white;
   background-color: rgba(16, 16, 16, 0.97);
 }
 
@@ -143,7 +85,6 @@ main {
 
 .accordion_content {
   overflow: hidden;
-  max-height: 0;
   transition: max-height 0.2s;
   padding: 0 15px; /* Padding for the content */
 }
@@ -153,19 +94,51 @@ main {
 /*   drinks   */
 /* ********** */
 
-/* Moved properties for #section_snacks and #section_drinks into class .grid-container
-for less repetition */
+/* ************ */
+/*    Grid-     */
+/*    Layout    */
+/* ************ */
 
-/*
-#section_snacks,
-#section_drinks {
-  width: 100%;
+/* Container for products */
+.product-container {
+  max-width: 100rem;
+  margin-inline: auto;
+  padding-inline: 0.5rem;
+}
+
+/* Make card element stack on top of each other */
+.stacked {
+  display: grid;
+}
+
+/* Make card elements occupy same cell */
+.stacked > * {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+/* Responsive grid for drinks*/
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  justify-items: center;
+  gap: 8px;
+  padding: 16px;
   margin: 20px 0;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   background-color: #f5f0ff;
 }
-*/
+
+/* Basic style for cards */
+.product-card {
+  padding: 1em;
+  aspect-ratio: 1 / 1.5;
+  background-color: white;
+  border: 1px solid #b2dfdb;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
 
 /* Grouped styling for .snacks and .dryck for less repetition */
 .product-card:hover {
@@ -173,61 +146,30 @@ for less repetition */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Refactored class .snacks and .dryck into class .product-card for less repetition */
-/*
-.snacks,
-.dryck {
-  display: inline-block;
-  text-align: center;
-  max-width: 200px;
-  margin: 10px;
-  padding: 15px;
-  background-color: white;
-  border: 1px solid #b2dfdb;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s, box-shadow 0.2s;
-  flex: 1 1 100px;
+/* Scale product images scale with card */
+.product-image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
 }
-*/
 
-/* Commented this out to set styling for all images */
-/*
-.dryck img {
-  width: 150px;
-  height: 150px;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  }
-*/
+/* Make product info to stay att the bottom */
+.product-info {
+  align-self: end;
+  text-align: center;
+}
 
-/* Refactored ".dryck h3" into .product-name which targets h3-element with product name in all product-cards */
-/*
-.dryck h3 {
-  font-size: 18px;
+/* Product name styling */
+.product-name {
+  font-size: 1.2rem;
   color: #004d40;
-  margin: 5px 0;
-  }
-*/
+}
 
-/* Refactored ".dryck p" into .product-price which targets p-element with price in all product-cards */
-/*
-.dryck p {
-  font-size: 16px;
+/* Product price styling */
+.product-price {
+  font-size: 1.1rem;
   color: #00695c;
-  margin: 5px 0;
-  }
-*/
-
-/* Commented this out to set styling for all images */
-/*
-.snacks img {
-  width: 150px;
-  height: 150px;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  }
-*/
+}
 
 /* ********** */
 /*    Cart    */
@@ -348,82 +290,7 @@ for less repetition */
 }
 
 /* ************ */
-/*    Grid-     */
-/*    Layout    */
-/* ************ */
-
-/* Container for products */
-.product-container {
-  max-width: 100rem;
-  margin-inline: auto;
-  padding-inline: 0.5rem;
-}
-
-/* Make card element stack on top of each other */
-.stacked {
-  display: grid;
-}
-
-/* Make card elements occupy same cell */
-.stacked > * {
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
-/* Responsive grid for drinks*/
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
-  justify-items: center;
-  gap: 8px;
-  padding: 16px;
-  margin: 20px 0;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background-color: #f5f0ff;
-}
-
-/* Basic style for cards */
-.product-card {
-  aspect-ratio: 1 / 1.5;
-  padding: 1em;
-  background-color: white;
-  border: 1px solid #b2dfdb;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-/* Scale product images scale with card */
-.product-image {
-  width: 100%;
-  aspect-ratio: 1/1;
-  object-fit: cover;
-}
-
-/* Make product info to stay att the bottom */
-.product-info {
-  align-self: end;
-  text-align: center;
-}
-
-/* Product name styling */
-.product-name {
-  font-size: 18px;
-  color: #004d40;
-  margin: 5px 0;
-}
-
-/* Product price styling */
-.product-price {
-  display: inline-block;
-  font-size: 16px;
-  color: #00695c;
-  margin: 5px 0;
-}
-
-/* ************ */
-/*    Cart design    */
+/* Cart design  */
 /* ************ */
 
 .cart-img-container {
@@ -442,7 +309,7 @@ for less repetition */
   width: 370px;
   justify-content: space-around;
   padding-right: 20px;
-  box-shadow: 0px 0px 22px -8px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 22px -8px rgba(0, 0, 0, 0.75);
   height: 100px;
 }
 .product-description {
@@ -451,7 +318,7 @@ for less repetition */
   font-size: small;
 }
 
-.product-info {
+.cart-product-info {
   height: 100px;
   display: flex;
   flex-direction: column;
@@ -479,7 +346,7 @@ for less repetition */
   justify-content: space-around;
   align-items: center;
   cursor: pointer;
-  box-shadow: 0px 0px 22px -8px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 22px -8px rgba(0, 0, 0, 0.75);
   padding-block: 10px;
 }
 .swish-logo {
@@ -491,7 +358,7 @@ for less repetition */
   justify-content: space-between;
   border-bottom: 4px dashed;
 }
- .card-container {
+.card-container {
   width: 370px;
   margin: 0 auto;
   border: 1px solid black;
@@ -508,7 +375,7 @@ for less repetition */
 }
 .form-row {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   gap: 10px;
 }
 .input-section-l {
