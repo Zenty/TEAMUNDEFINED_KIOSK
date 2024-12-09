@@ -44,7 +44,7 @@ Projektet är utvecklat med moderna webbutvecklingstekniker och är optimerat f�
  products.js: Kan användas för hantering av produktdata och logik.
 
 ## Projektstruktur
-│
+<pre>│
 ├── index.html               # Huvud-HTML-fil
 ├── styles/
 │   ├── properties.css       # CSS-variabler
@@ -55,7 +55,7 @@ Projektet är utvecklat med moderna webbutvecklingstekniker och är optimerat f�
 │   ├── checkout.js          # Kundvagnsfunktionalitet
 │   └── products.js          # Produktlogik
 ├── images/                  # Produktbilder
-└── README.md                # Dokumentation
+└── README.md                # Dokumentation</pre>
 
 ## Teammedlemmar
 
