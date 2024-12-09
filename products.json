@@ -5,25 +5,25 @@
         "id": "1",
         "name": "Delicatoboll",
         "price": "8 kr",
-        "imageUrl": "images/snacks/delicatoboll.png"
+        "imageUrl": "../images/snacks/delicatoboll.png"
       },
       {
         "id": "2",
         "name": "Haribo Peach",
         "price": "13 kr",
-        "imageUrl": "images/snacks/haribo-peach.png"
+        "imageUrl": "../images/snacks/haribo-peach.png"
       },
       {
         "id": "3",
         "name": "Kexchoklad",
         "price": "10 kr",
-        "imageUrl": "images/snacks/kexchoklad.png"
+        "imageUrl": "../images/snacks/kexchoklad.png"
       },
       {
         "id": "4",
         "name": "Barbell Protein Bar",
         "price": "15 kr",
-        "imageUrl": "/images/snacks/barbell-protein.png"
+        "imageUrl": "../images/snacks/barbell-protein.png"
       },
       {
         "id": "5",
