@@ -5,73 +5,73 @@
         "id": "1",
         "name": "Delicatoboll",
         "price": "8 kr",
-        "imageUrl": "/images/snacks/delicatoboll.png"
+        "imageUrl": "images/snacks/delicatoboll.png"
       },
       {
         "id": "2",
         "name": "Haribo Peach",
         "price": "13 kr",
-        "imageUrl": "/images/snacks/haribo-peach.png"
+        "imageUrl": "images/snacks/haribo-peach.png"
       },
       {
         "id": "3",
         "name": "Kexchoklad",
         "price": "10 kr",
-        "imageUrl": "/images/snacks/kexchoklad.png"
+        "imageUrl": "images/snacks/kexchoklad.png"
       },
       {
         "id": "4",
         "name": "Barbell Protein Bar",
         "price": "15 kr",
-        "imageUrl": "/images/snacks/barbell-protein.png"
+        "imageUrl": "images/snacks/barbell-protein.png"
       },
       {
         "id": "5",
         "name": "Snickers",
         "price": "15 kr",
-        "imageUrl": "/images/snacks/snickers.png"
+        "imageUrl": "images/snacks/snickers.png"
       },
       {
         "id": "6",
         "name": "Twix",
         "price": "16 kr",
-        "imageUrl": "/images/snacks/twix.webp"
+        "imageUrl": "images/snacks/twix.webp"
       },
       {
         "id": "7",
         "name": "Ballerina Kakor",
         "price": "22 kr",
-        "imageUrl": "/images/snacks/ballerina.webp"
+        "imageUrl": "images/snacks/ballerina.webp"
       },
       {
         "id": "8",
         "name": "Digestive Kex",
         "price": "25 kr",
-        "imageUrl": "/images/snacks/digestive.png"
+        "imageUrl": "images/snacks/digestive.png"
       },
       {
         "id": "9",
         "name": "Chips (Salt)",
         "price": "28 kr",
-        "imageUrl": "/images/snacks/saltachips.png"
+        "imageUrl": "images/snacks/saltachips.png"
       },
       {
         "id": "10",
         "name": "Ostbågar",
         "price": "32 kr",
-        "imageUrl": "/images/snacks/ostbagar.webp"
+        "imageUrl": "images/snacks/ostbagar.webp"
       },
       {
         "id": "11",
         "name": "Cashewnötter",
         "price": "35 kr",
-        "imageUrl": "/images/snacks/cashewnotter.webp"
+        "imageUrl": "images/snacks/cashewnotter.webp"
       },
       {
         "id": "12",
         "name": "Saltlakrits",
         "price": "20 kr",
-        "imageUrl": "/images/snacks/saltlakrits.webp"
+        "imageUrl": "images/snacks/saltlakrits.webp"
       }
     ],
 
@@ -80,73 +80,73 @@
         "id": "1",
         "name": "Coca-Cola",
         "price": "12 kr",
-        "imageUrl": "/images/drinks/coca-cola.png"
+        "imageUrl": "images/drinks/coca-cola.png"
       },
       {
         "id": "2",
         "name": "Red Bull",
         "price": "15 kr",
-        "imageUrl": "/images/drinks/red-bull.png"
+        "imageUrl": "images/drinks/red-bull.png"
       },
       {
         "id": "3",
         "name": "Nordpole",
         "price": "15 kr",
-        "imageUrl": "/images/drinks/nordpole-dricka.png"
+        "imageUrl": "images/drinks/nordpole-dricka.png"
       },
       {
         "id": "4",
         "name": "Julmust",
         "price": "11 kr",
-        "imageUrl": "/images/drinks/julmust.png"
+        "imageUrl": "images/drinks/julmust.png"
       },
       {
         "id": "5",
         "name": "Nocco",
         "price": "25 kr",
-        "imageUrl": "/images/drinks/nocco.webp"
+        "imageUrl": "images/drinks/nocco.webp"
       },
       {
         "id": "6",
         "name": "Trocadero",
         "price": "19 kr",
-        "imageUrl": "/images/drinks/trocadero.jpg"
+        "imageUrl": "images/drinks/trocadero.jpg"
       },
       {
         "id": "7",
         "name": "Loka Naturell",
         "price": "15 kr",
-        "imageUrl": "/images/drinks/loka.jpg"
+        "imageUrl": "images/drinks/loka.jpg"
       },
       {
         "id": "8",
         "name": "Ramlösa Citrus",
         "price": "17 kr",
-        "imageUrl": "/images/drinks/ramlosa.jpg"
+        "imageUrl": "images/drinks/ramlosa.jpg"
       },
       {
         "id": "9",
         "name": "Vitamin Well Focus",
         "price": "20 kr",
-        "imageUrl": "/images/drinks/vitamin-well.webp"
+        "imageUrl": "images/drinks/vitamin-well.webp"
       },
       {
         "id": "10",
         "name": "Nocco Caribbean",
         "price": "22 kr",
-        "imageUrl": "/images/drinks/nocco-caribbean.jpg"
+        "imageUrl": "images/drinks/nocco-caribbean.jpg"
       },
       {
         "id": "11",
         "name": "Monster Energy",
         "price": "25 kr",
-        "imageUrl": "/images/drinks/monsterenergy.png"
+        "imageUrl": "images/drinks/monsterenergy.png"
       },
       {
         "id": "12",
         "name": "Zingo",
         "price": "17 kr",
-        "imageUrl": "/images/drinks/zingo.jpg"
+        "imageUrl": "images/drinks/zingo.jpg"
       }
     ]
   }
