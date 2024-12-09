@@ -14,7 +14,7 @@ Projektet är fullt responsivt med hjälp av media queries och flexbox, vilket g
 - Joakim Andersson
 - Matai Somi
 - Muayade Suleiman
-- Ponyus Flodström
+- Pontus Flodström (Projektledare)
 - Raoof Raoof
 - Theodor Arbus
 
@@ -26,7 +26,7 @@ HTML: För webbplatsens grundläggande struktur.
 CSS: För design och layout, inklusive responsiva media queries.
 JavaScript: För interaktivitet som kundvagnsfunktionalitet och dynamiska sektioner.
 
-##Funktioner
+## Funktioner
 - Produktvisning: Kategorisering av snacks och drycker i ett användarvänligt rutnät.
 - Kundvagn: Möjlighet att lägga till, ta bort och visa produkter i kundvagnen.
 - Responsiv design: Anpassar layouten för olika skärmstorlekar.
