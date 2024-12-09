@@ -25,10 +25,11 @@ picture {
   grid-row: 1/2;
 }
 
-/* Responsive grid for drinks (might refactor later for to include snacks as well) */
+/* Responsive grid for drinks*/
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  justify-items: center;
   gap: 8px;
 }
 
@@ -36,6 +37,11 @@ picture {
 .product-card {
   aspect-ratio: 1 / 1.5;
   padding: 1em;
+  background-color: white;
+  border: 1px solid #b2dfdb;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 /* Scale product images scale with card */
@@ -53,13 +59,15 @@ picture {
 
 /* Product name styling */
 .product-name {
-  font-size: 1.25rem;
-  font-weight: lighter;
-  line-height: 1.618;
+  font-size: 18px;
+  color: #004d40;
+  margin: 5px 0;
 }
 
 /* Product price styling */
 .product-price {
-  font-size: 1.25em;
-  font-weight: bolder;
+  display: inline-block;
+  font-size: 16px;
+  color: #00695c;
+  margin: 5px 0;
 }
