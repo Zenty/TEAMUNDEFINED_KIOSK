@@ -18,9 +18,12 @@ async function createProducts() {
   const data = await fetchData(jsonFile);
 
   if (!data) return;
+  console.log(data);
 
   const snacks = data.products.snacks;
   const drinks = data.products.drinks;
+  console.log(snacks);
+  console.log(drinks);
 
   //Display categories under their category
   displayProduct(snacks, "snacks_section");
