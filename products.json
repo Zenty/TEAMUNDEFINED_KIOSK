@@ -5,7 +5,7 @@
         "id": "1",
         "name": "Delicatoboll",
         "price": "8 kr",
-        "imageUrl": "/images/snacks/delicatoboll.png"
+        "imageUrl": "./images/snacks/delicatoboll.png"
       },
       {
         "id": "2",
