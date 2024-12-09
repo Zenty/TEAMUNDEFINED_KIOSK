@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="styles/properties.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/media-queries.css" />
-    <link rel="stylesheet" href="styles/products.css" />
     <title>TUC Kiosk</title>
   </head>
 
@@ -30,36 +29,55 @@
       <!-- Drinks Section -->
       <section class="accordion">
         <button type="button" class="accordion_button">Dryck</button>
-        <div class="accordion_content">
+        <div class="accordion_content product-container">
           <!-- Drinks Section -->
-          <section id="section_drinks">
-
+          <section class="grid-container" id="section_drinks">
             <!-- Coca Cola -->
-            <div class="dryck">
-              <img src="images/coca-cola.png" alt="Coca Cola" />
-              <h3>Coca Cola</h3>
-              <p>Pris: 12 kr</p>
+            <div class="product-card">
+              <img
+                class="product-image"
+                src="images/coca-cola.png"
+                alt="Coca Cola" />
+              <div class="product-info">
+                <h3 class="product-name">Coca Cola</h3>
+                <p class="product-price">Pris: 12 kr</p>
+              </div>
             </div>
 
             <!-- Red Bull -->
-            <div class="dryck">
-              <img src="images/red-bull.png" alt="Red Bull" />
-              <h3>Red Bull</h3>
-              <p>Pris: 15 kr</p>
+            <div class="product-card">
+              <img
+                class="product-image"
+                src="images/red-bull.png"
+                alt="Red Bull" />
+              <div class="product-info">
+                <h3 class="product-name">Red Bull</h3>
+                <p class="product-price">Pris: 15 kr</p>
+              </div>
             </div>
 
             <!-- Nordpole -->
-            <div class="dryck">
-              <img src="images/nordpole-dricka.png" alt="Nordpole Dricka" />
-              <h3>Nordpole</h3>
-              <p>Pris: 15 kr</p>
+            <div class="product-card">
+              <img
+                class="product-image"
+                src="images/nordpole-dricka.png"
+                alt="Nordpole Dricka" />
+              <div class="product-info">
+                <h3 class="product-name">Nordpole</h3>
+                <p class="product-price">Pris: 15 kr</p>
+              </div>
             </div>
 
             <!-- Julmust -->
-            <div class="dryck">
-              <img src="images/julmust.png" alt="Julmust" />
-              <h3>Julmust</h3>
-              <p>Pris: 11 kr</p>
+            <div class="product-card">
+              <img
+                class="product-image"
+                src="images/julmust.png"
+                alt="Julmust" />
+              <div class="product-info">
+                <h3 class="product-name">Julmust</h3>
+                <p class="product-price">Pris: 11 kr</p>
+              </div>
             </div>
           </section>
         </div>
@@ -68,36 +86,55 @@
       <!-- Food Section -->
       <section class="accordion">
         <button type="button" class="accordion_button">Snacks</button>
-        <div class="accordion_content">
+        <div class="accordion_content product-container">
           <!-- Snacks Section -->
-          <section id="section_snacks">
-
+          <section class="grid-container" id="section_snacks">
             <!-- Delicatoboll -->
-            <div class="snacks">
-              <img src="images/delicatoboll.png" alt="delicatoboll" />
-              <h3>Delicatoboll</h3>
-              <p>Pris: 8 kr</p>
+            <div class="product-card">
+              <img
+                class="product-image"
+                src="images/delicatoboll.png"
+                alt="delicatoboll" />
+              <div class="product-info">
+                <h3 class="product-name">Delicatoboll</h3>
+                <p class="product-price">Pris: 8 kr</p>
+              </div>
             </div>
 
             <!-- Haribo Peach -->
-            <div class="snacks">
-              <img src="images/haribo-peach.png" alt="haribo" />
-              <h3>Haribo Peach</h3>
-              <p>Pris: 13 kr</p>
+            <div class="product-card">
+              <img
+                class="product-image"
+                src="images/haribo-peach.png"
+                alt="haribo" />
+              <div class="product-info">
+                <h3 class="product-name">Haribo Peach</h3>
+                <p class="product-price">Pris: 13 kr</p>
+              </div>
             </div>
 
             <!-- Kexchoklad -->
-            <div class="snacks">
-              <img src="images/kexchoklad.png" alt="kexchoklad" />
-              <h3>Kexchoklad</h3>
-              <p>Pris: 10 kr</p>
+            <div class="product-card">
+              <img
+                class="product-image"
+                src="images/kexchoklad.png"
+                alt="kexchoklad" />
+              <div class="product-info">
+                <h3 class="product-name">Kexchoklad</h3>
+                <p class="product-price">Pris: 10 kr</p>
+              </div>
             </div>
 
             <!-- Barbell Protein Bar -->
-            <div class="snacks">
-              <img src="images/barbell-protein.png" alt="barbell proteinbar" />
-              <h3>Barbell Protein Bar</h3>
-              <p>Pris: 15 kr</p>
+            <div class="product-card">
+              <img
+                class="product-image"
+                src="images/barbell-protein.png"
+                alt="barbell proteinbar" />
+              <div class="product-info">
+                <h3 class="product-name">Barbell Protein Bar</h3>
+                <p class="product-price">Pris: 15 kr</p>
+              </div>
             </div>
           </section>
         </div>
