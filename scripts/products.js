@@ -14,7 +14,7 @@ async function fetchData(jsonFile) {
 
 // Get data from json and stores them in separate categories
 async function createProducts() {
-  const jsonFile = "../products.json";
+  const jsonFile = "../scripts/products.json";
   const data = await fetchData(jsonFile);
 
   if (!data) return;
