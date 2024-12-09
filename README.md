@@ -1,33 +1,73 @@
-# TEAMUNDEFINED_KIOSK
-## TUC Kiosk
+## TEAMUNDEFINED KIOSK
+## Översikt
 
-# Projektbeskrivning
+TEAMUNDEFINED KIOSK är en responsiv webbapplikation som simulerar en kiosk för TUC Yrkeshögskola. Webbplatsen ger användare möjlighet att utforska produkter i kategorier som drycker och snacks. Den erbjuder en enkel och användarvänlig upplevelse med funktioner som en dynamisk kundvagn för att lägga till och ta bort produkter.
 
-Detta är ett grupprojekt för en uppgift i HTML, CSS och JavaScript. Vi har skapat en webbplats som simulerar en kiosk för TUC Yrkeshögskola. Webbplatsen är designad för att hantera snacks och drycker med en kundvagnsfunktionalitet, där användare kan lägga till, ta bort och se produkter.
+Projektet är utvecklat med moderna webbutvecklingstekniker och är optimerat för både mobila och stationära enheter.
 
-Projektet är fullt responsivt med hjälp av media queries och flexbox, vilket gör det användarvänligt både på mobila och stationära enheter. HTML användes för att skapa webbplatsens struktur, CSS för stil och layout, samt JavaScript för dynamiska funktioner.
 
-##  Teammedlemmar
+## Funktioner
+
+- Produktkategorier
+
+. Produkter är organiserade i separata kategorier: drycker och snacks.
+. Användarvänligt rutnät som gör det enkelt att bläddra bland produkter.
+
+- Kundvagn
+
+. Möjlighet att lägga till och ta bort produkter.
+. Dynamisk uppdatering av antalet produkter i kundvagnen.
+. Popup-funktion för att visa kundvagnens innehåll.
+
+- Responsiv design
+
+.Layouten anpassar sig automatiskt till olika enhetsstorlekar, från mobiltelefoner till stationära datorer.
+
+- Interaktivitet
+
+. Dynamiska sektioner med användning av JavaScript för en modern och engagerande upplevelse.
+
+## Använda tekniker
+  HTML
+  Bygger webbplatsens grundläggande struktur.
+
+ .CSS
+
+  properties.css: Hanterar globala designvariabler som färger och typsnitt.
+ style.css: Implementerar layout och styling.
+ media-queries.css: Säkerställer responsiv design för olika skärmstorlekar.
+
+  .JavaScript
+
+ main.js: Styr interaktiviteten i sektioner som drycker och snacks.
+ checkout.js: Hanterar kundvagnsfunktionalitet.
+ products.js: Kan användas för hantering av produktdata och logik.
+
+## Projektstruktur
+<pre>│
+├── index.html               # Huvud-HTML-fil
+├── styles/
+│   ├── properties.css       # CSS-variabler
+│   ├── style.css            # Webbplatsens stilar
+│   └── media-queries.css    # Responsiv design
+├── scripts/
+│   ├── main.js              # Dynamiska funktioner
+│   ├── checkout.js          # Kundvagnsfunktionalitet
+│   └── products.js          # Produktlogik
+├── images/                  # Produktbilder
+└── README.md                # Dokumentation</pre>
+
+## Teammedlemmar
+
 - Edvard Andersson
 - Evilina Svahn Liljedahl
 - Harun Ali
 - Joakim Andersson
 - Matai Somi
 - Muayade Suleiman
-- Ponyus Flodström
+- Pontus Flodström (Projektledare)
 - Raoof Raoof
 - Theodor Arbus
 
 ## Tidsram
-Gruppen började projektet den 27/11-24 och presentationen är satt till 10/12-24, där en live-demo ska visas inför klasskamrater och lärare.
-
-## Tekniker som används
-HTML: För webbplatsens grundläggande struktur.
-CSS: För design och layout, inklusive responsiva media queries.
-JavaScript: För interaktivitet som kundvagnsfunktionalitet och dynamiska sektioner.
-
-##Funktioner
-- Produktvisning: Kategorisering av snacks och drycker i ett användarvänligt rutnät.
-- Kundvagn: Möjlighet att lägga till, ta bort och visa produkter i kundvagnen.
-- Responsiv design: Anpassar layouten för olika skärmstorlekar.
-
+Projektet startades den 27 november 2024 och avslutades den 10 december 2024. Presentationen inkluderade en live-demo för kursdeltagare och lärare.

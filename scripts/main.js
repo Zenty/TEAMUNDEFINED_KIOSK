@@ -1,17 +1,41 @@
-// Main Scripts
+/* ********************** */
+/*   Accordion scripts    */
+/* ********************** */
 
-// Toggles the visibility of the collapsible content in the drinks/food section
+// Function to expand an accordion
+function expandAccordion(button, content) {
+  button.classList.add('accordion_button--active'); //Adds CSS to the active button
+  content.style.maxHeight = content.scrollHeight + 'px'; //Makes the content visible
+}
 
-document.querySelectorAll('.accordion_button').forEach(button => {
-  button.addEventListener('click', () => {
+// Function to collapse an accordion
+function collapseAccordion(button, content) {
+  button.classList.remove('accordion_button--active'); //Removes the expanded button CSS
+  content.style.maxHeight = 0; //Hides the content
+}
+
+// Function to toggle an accordion
+function toggleAccordion(button, content) {
+  if (button.classList.contains('accordion_button--active')) {
+    collapseAccordion(button, content);
+  } else {
+    expandAccordion(button, content);
+  }
+}
+
+// Initialize the accordion
+function initializeAccordion() {
+  const buttons = document.querySelectorAll('.accordion_button');
+
+  buttons.forEach((button) => {
     const accordionContent = button.nextElementSibling;
 
-    button.classList.toggle('accordion_button--active');
+    expandAccordion(button, accordionContent); //Expands the accordions on page load
 
-    if (button.classList.contains('accordion_button--active')) {
-      accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
-    } else {
-      accordionContent.style.maxHeight = 0;
-    }
+    // Add click event listener to toggle on click
+    button.addEventListener('click', () => toggleAccordion(button, accordionContent));
   });
-});
+}
+
+// Call the initialization function on page load
+initializeAccordion();
