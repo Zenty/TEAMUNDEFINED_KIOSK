@@ -76,7 +76,7 @@ main {
 .accordion_button::after {
   content: "\25be"; /*Down-arrow*/
   float: right;
-  transform: scale (1.5);
+  transform: scale(1.5);
 }
 
 .accordion_button--active::after {
