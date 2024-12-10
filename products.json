@@ -21,7 +21,7 @@
       },
       {
         "id": "4",
-        "name": "Barbell Protein Bar",
+        "name": "Barebell Protein Bar",
         "price": "15 kr",
         "imageUrl": "images/snacks/barbell-protein.png"
       },
@@ -63,7 +63,7 @@
       },
       {
         "id": "11",
-        "name": "Cashewnötter",
+        "name": "Cashew nötter",
         "price": "35 kr",
         "imageUrl": "images/snacks/cashewnotter.webp"
       },
