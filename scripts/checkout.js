@@ -48,23 +48,3 @@ cartRemoveButton.addEventListener('click', function() {
     updateCartDisplay();
 });
 
-// Event listeners for plus- och minus-knappar
-document.querySelectorAll('.bi-plus-square').forEach((plusButton) => {
-    plusButton.addEventListener('click', function () {
-        const quantityElement = this.previousElementSibling;
-        let currentQuantity = parseInt(quantityElement.textContent);
-        currentQuantity++;
-        quantityElement.textContent = currentQuantity;
-    });
-});
-
-document.querySelectorAll('.bi-dash-square').forEach((minusButton) => {
-    minusButton.addEventListener('click', function () {
-        const quantityElement = this.nextElementSibling;
-        let currentQuantity = parseInt(quantityElement.textContent);
-        if (currentQuantity > 1) {
-            currentQuantity--;
-            quantityElement.textContent = currentQuantity;
-        }
-    });
-});
