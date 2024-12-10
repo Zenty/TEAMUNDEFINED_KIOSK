@@ -42,6 +42,7 @@ picture {
   color: white;
   background-color: rgba(16, 16, 16, 0.97);
   z-index: 2;
+
 }
 
 /* ********** */
@@ -160,7 +161,7 @@ main {
 .product-image {
   width: 100%;
   aspect-ratio: 1/1;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 /* Make product info to stay att the bottom */
