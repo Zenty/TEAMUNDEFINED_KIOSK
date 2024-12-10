@@ -172,6 +172,7 @@ main {
 
 .cart-product .product-info {
   align-self: initial;
+  margin-top: 0px;
 }
 
 .cart-product {
