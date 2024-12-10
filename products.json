@@ -1,80 +1,5 @@
 {
   "products": {
-    "snacks": [
-      {
-        "id": "1",
-        "name": "Delicatoboll",
-        "price": "8 kr",
-        "imageUrl": "images/snacks/delicatoboll.png"
-      },
-      {
-        "id": "2",
-        "name": "Haribo Peach",
-        "price": "13 kr",
-        "imageUrl": "images/snacks/haribo-peach.png"
-      },
-      {
-        "id": "3",
-        "name": "Kexchoklad",
-        "price": "10 kr",
-        "imageUrl": "images/snacks/kexchoklad.png"
-      },
-      {
-        "id": "4",
-        "name": "Barbell Protein Bar",
-        "price": "15 kr",
-        "imageUrl": "images/snacks/barbell-protein.png"
-      },
-      {
-        "id": "5",
-        "name": "Snickers",
-        "price": "15 kr",
-        "imageUrl": "images/snacks/snickers.png"
-      },
-      {
-        "id": "6",
-        "name": "Twix",
-        "price": "16 kr",
-        "imageUrl": "images/snacks/twix.webp"
-      },
-      {
-        "id": "7",
-        "name": "Ballerina Kakor",
-        "price": "22 kr",
-        "imageUrl": "images/snacks/ballerina.webp"
-      },
-      {
-        "id": "8",
-        "name": "Digestive Kex",
-        "price": "25 kr",
-        "imageUrl": "images/snacks/digestive.png"
-      },
-      {
-        "id": "9",
-        "name": "Chips (Salt)",
-        "price": "28 kr",
-        "imageUrl": "images/snacks/saltachips.png"
-      },
-      {
-        "id": "10",
-        "name": "Ostbågar",
-        "price": "32 kr",
-        "imageUrl": "images/snacks/ostbagar.webp"
-      },
-      {
-        "id": "11",
-        "name": "Cashewnötter",
-        "price": "35 kr",
-        "imageUrl": "images/snacks/cashewnotter.webp"
-      },
-      {
-        "id": "12",
-        "name": "Saltlakrits",
-        "price": "20 kr",
-        "imageUrl": "images/snacks/saltlakrits.webp"
-      }
-    ],
-
     "drinks": [
       {
         "id": "1",
@@ -147,6 +72,80 @@
         "name": "Zingo",
         "price": "17 kr",
         "imageUrl": "images/drinks/zingo.jpg"
+      }
+    ],
+    "snacks": [
+      {
+        "id": "13",
+        "name": "Delicatoboll",
+        "price": "8 kr",
+        "imageUrl": "images/snacks/delicatoboll.png"
+      },
+      {
+        "id": "14",
+        "name": "Haribo Peach",
+        "price": "13 kr",
+        "imageUrl": "images/snacks/haribo-peach.png"
+      },
+      {
+        "id": "15",
+        "name": "Kexchoklad",
+        "price": "10 kr",
+        "imageUrl": "images/snacks/kexchoklad.png"
+      },
+      {
+        "id": "16",
+        "name": "Barbell Protein Bar",
+        "price": "15 kr",
+        "imageUrl": "images/snacks/barbell-protein.png"
+      },
+      {
+        "id": "17",
+        "name": "Snickers",
+        "price": "15 kr",
+        "imageUrl": "images/snacks/snickers.png"
+      },
+      {
+        "id": "18",
+        "name": "Twix",
+        "price": "16 kr",
+        "imageUrl": "images/snacks/twix.webp"
+      },
+      {
+        "id": "19",
+        "name": "Ballerina Kakor",
+        "price": "22 kr",
+        "imageUrl": "images/snacks/ballerina.webp"
+      },
+      {
+        "id": "20",
+        "name": "Digestive Kex",
+        "price": "25 kr",
+        "imageUrl": "images/snacks/digestive.png"
+      },
+      {
+        "id": "21",
+        "name": "Chips (Salt)",
+        "price": "28 kr",
+        "imageUrl": "images/snacks/saltachips.png"
+      },
+      {
+        "id": "22",
+        "name": "Ostbågar",
+        "price": "32 kr",
+        "imageUrl": "images/snacks/ostbagar.webp"
+      },
+      {
+        "id": "23",
+        "name": "Cashew nötter",
+        "price": "35 kr",
+        "imageUrl": "images/snacks/cashewnotter.webp"
+      },
+      {
+        "id": "24",
+        "name": "Saltlakrits",
+        "price": "20 kr",
+        "imageUrl": "images/snacks/saltlakrits.webp"
       }
     ]
   }
